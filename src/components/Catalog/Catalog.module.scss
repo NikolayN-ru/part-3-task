@@ -1,0 +1,23 @@
+.wrap {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+
+  > p {
+    @apply uppercase text-xl font-semibold;
+    color: #ffc85e;
+
+    > span {
+      color: #111111;
+    }
+  }
+
+  &Items {
+    @apply flex flex-wrap gap-10;
+  }
+}

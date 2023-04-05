@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: #3f4e65;
+  list-style: none;
+  font-size: 14px;
+  li {
+    padding: 0 30px 0;
+    border-right: 1px dashed #e7e7e7;
+    transition: all 0.5s;
+  }
+  li:hover {
+    color: rgb(255, 145, 0);
+    cursor: pointer;
+  }
+}
