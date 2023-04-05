@@ -1,6 +1,7 @@
 {
-  "name": "2",
-  "version": "0.1.0",
+  "name": "starter-project",
+  "homepage": "https://nikolayn-ru.github.io/part-3-task/",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
