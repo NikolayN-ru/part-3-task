@@ -1,18 +1,31 @@
 .wrap {
-  @apply w-[326px] h-[490px] flex flex-col justify-center items-center p-[20px]
-  rounded-[10px];
+  // @apply w-[326px] h-[490px] flex flex-col justify-center items-center p-[20px] rounded-[10px];
+  width: 326px;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
   box-shadow: 0px 14px 39px -11px rgba(0, 0, 0, 0.06);
 
   img {
-    @apply w-[92px] h-[194px];
+    // @apply w-[92px] h-[194px];
+    width: 92px;
+    height: 194px;
   }
 
   &Description {
-    @apply flex flex-col justify-start items-start;
+    // @apply flex flex-col justify-start items-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     color: rgb(0, 0, 0) !important;
 
     p {
-      @apply font-light leading-relaxed pb-[10px];
+      // @apply font-light leading-relaxed pb-[10px];
 
       span {
         font-family: "Inter";
@@ -34,11 +47,18 @@
 }
 
 .price {
-  @apply w-[153px] h-[45px] justify-between gap-2;
+  // @apply w-[153px] h-[45px] justify-between gap-2;
+  width: 153px;
+  height: 45px;
+  justify-content: space-between;
+  gap: 2px;
   border: none;
 
   button {
-    @apply rounded-[20px] w-[153px] h-[45px];
+    // @apply rounded-[20px] w-[153px] h-[45px];
+    border-radius: 20px;
+    width: 153px;
+    height: 45px;
     background: #ffc85e;
     // margin-left: 10px;
   }

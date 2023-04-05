@@ -1,4 +1,11 @@
 .button {
-    @apply w-[200px] h-[59px] text-white rounded-[79px] flex justify-center pt-[17px];
+    // @apply w-[200px] h-[59px] text-white rounded-[79px] flex justify-center pt-[17px];
+    display: flex;
+    width: 200px;
+    height: 59px;
+    color: white;
+    border-radius: 79px;
+    justify-content: center;
+    padding-top: 17px;
     background: #FFC85E;
 }
