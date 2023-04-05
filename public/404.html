@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Page Not Found</title>
+  </head>
+  <body>
+    <script>
+      var path = window.location.href.replace(/\\[^\\/]*$/, '');
+      window.location.replace(path + '/index.html#' + window.location.pathname);
+    </script>
+  </body>
+</html>

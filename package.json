@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.3.0",
   "private": true,
-  "homepage": "https://NikolayN-ru.github.io/part-3-task",
+  "homepage": "http://NikolayN-ru.github.io/part-3-task",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
