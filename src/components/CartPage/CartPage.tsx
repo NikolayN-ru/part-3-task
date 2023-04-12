@@ -39,57 +39,15 @@ const CartPage = () => {
     setSubmit(false);
   };
 
-  console.log(items)
+  console.log(items);
   return (
     <div>
       <Header />
-      {/* <MainPage /> */}
       <ButtonHeader />
-      {/* <div className={styles.wrap}>
-        <div className={styles.left}>
-          {items &&
-            items.map((item: any, id: number) => {
-              return <ItemCart key={id} item={item} />;
-            })}
-        </div>
-        <div className={styles.right}>
-          <p className={styles.total}>total price: {state.toFixed(2)} USD</p>
-          <div className={styles.cantact}>
-            <input
-              className={styles.input}
-              type="text"
-              placeholder="имя"
-              value={name}
-              onChange={(e) => setName((prev) => e.target.value)}
-            />
-            <input
-              className={styles.input}
-              type="text"
-              placeholder="телефон"
-              value={phone}
-              onChange={(e) => setPhone((prev) => e.target.value)}
-            />
-          </div>
-          <button onClick={order} className={styles.success}>
-            оформить заказ
-          </button>
-          {submit && (
-            <div className={styles.submit}>
-              <p>заказ оформлен на имя {name},</p>
-              <p>c вами свяжутся по номеру {phone}</p>
-              <Link to="/">
-                <button onClick={submitFunc} className={styles.success}>
-                  OK!
-                </button>
-              </Link>
-            </div>
-          )}
-        </div>
-      </div> */}
       <div className={s.wrap}>
         <h1>Корзина</h1>
         <div className={s.items}>
-        {items &&
+          {items &&
             items.map((item: any, id: number) => {
               return <MainItem key={id} {...item} />;
             })}

@@ -9,11 +9,6 @@ import MenuHeader from "../MenuHeader/MenuHeader";
 const Header = () => {
   return (
     <div className={s.wrap}>
-      {/* <Link to="/" className={styles.header}>Страница товаров</Link>
-      <Link to="/cart">
-        {" "}
-        <Cart />
-      </Link> */}
       <div className={s.headerContacts}>
         <div className={s.headerContacts_item}>
           <Point />
